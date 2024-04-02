@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Home{
+    height: 150%;
+    width: 1615px;
+    background-color: antiquewhite;
+    padding-left: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.color{
+    position:absolute;
+    margin-left: 250px;
+    margin-top: 1000px;
+    height:250px;
+    width:400px;
+    top:70vh;
+  
+   background:linear-gradient(to right ,rgb(245, 0, 0),rgb(239, 152, 12),rgba(248, 45, 4, 0.534));
+   filter:blur(45px);
+}
+.next{
+    position:absolute;
+    margin-left: -300px;
+    margin-top: 10px;
+    height:700px;
+    width:600px;
+    top:168vh;
+   
+   background:linear-gradient(to right ,rgb(247, 2, 2), rgb(249, 69, 9) );
+   filter:blur(100px);
+   opacity: .9;
+}
+
+.line1{
+    height: 130vh;
+    width: 80vh;
+
+ margin-left: 230px;
+    background-color: rgb(218, 200, 176);
+    border-radius: 20px;
+    
+     background-image: linear-gradient(to bottom,white,rgba(255, 0, 0, 0.199)); 
+    box-shadow: 2px 1px 6px #FFA384;
+    border: 2px solid orangered;
+    z-index:2;
+}
+hr{
+    
+    height: 0px;
+    width: 70vh;
+   margin-left: 30px;
+}
+.jo{
+    margin-left: 20%;
+}
+h4{
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 62vh;
+    padding-top: 10px;
+}
+.class{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -15%;
+    padding: 20px;
+    margin-left: 20%;
+    
+}
+.accordion-button{
+    width: 50px;
+   margin-left: 30px;
+    
+}
+
+/* button{
+    height: 25px;
+    width: 60px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font: weight 100px;
+    margin-left: 40px;
+    border: 1px solid red;
+    margin-top: 110%;
+    border-radius: 2px;
+}  */
+.accordian-item{
+    display: flex;
+    transition: all 0.5s ease;
+   
+}
+.login{
+    height: 25px;
+    width: 60px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font: weight 100px;
+   
+    border: 1px solid red;
+    margin-top: 0%;
+    border-radius: 2px;
+    margin-left: 390px;
+}
+
+.tag{
+   
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 400px;
+    
+    
+}
+.name1{
+    margin-left: 200px;
+    position: relative;
+}
+.svg-inline--fa.fa-arrow-right{
+ 
+margin-left: 90%;
+
+
+
+}
+.svg-inline--fa.fa-arrow-left{
+    margin-left: 10px;
+
+
+}
+.name{
+    position: relative;
+    border: 2px solid;
+    height: 30%;
+    width: 119%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    display: flex;
+   
+}
+.accordion-item:last-of-type{
+    width: 500px;
+}
+
+
+.btn1{
+    background-color: transparent;
+    border: 0px;
+    margin-left: -130px;
+
+}
+.btn2{
+    background-color: transparent;
+    border: 0px;
+    margin-left: -50px;
+}
+/* .prac{
+    position:relative;
+    height: 20%;
+    width: 132%;
+    border-radius: 20px;
+   
+    margin-left: 500px; 
+    margin-top: -230px;
+    opacity: 1;
+} */
+.manage{
+    position: relative;
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 20px;
+    margin-left: 90px;
+    margin-top: 20px;
+ 
+
+}
+.col{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+.font{
+    
+    font-size: medium;
+    font-family: lighter;
+    cursor: pointer;
+    
+}
+
+.ankur{
+    position: relative;
+    margin-left: 300px;
+}
+ .kal{    
+    position: relative;                    /* common both div*/
+    content: center;
+    
+    margin-left: 30%;
+    margin-top: 20px;
+}
+.row1{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+ /* h2{ 
+   
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 3vh;
+    padding-top: 10px;
+}  */
